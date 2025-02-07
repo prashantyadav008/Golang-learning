@@ -40,6 +40,10 @@ and CTRL + X, phir Y, aur Enter.
 
     source ~/.bashrc
 
+#### Check Go Version
+
+    go version
+
 ##### Also Checkout or Follow Go Documentaion
 
     https://go.dev/doc/install
@@ -54,7 +58,7 @@ and CTRL + X, phir Y, aur Enter.
 
 #### Create Go Init File
 
-    go mod init example/hello
+    go mod init example.com/hello
 
 #### Go File Create as “.go” extension
 
@@ -63,3 +67,17 @@ and CTRL + X, phir Y, aur Enter.
 #### Create a Basic Function for Print "Hello World" and Run
 
       go run .
+
+## Basic Commands in Go
+
+#### Create File Mod
+
+    go mod init example.com/<file_name>
+
+#### Synchronize the example.com/<file_name> module's dependencies, adding those required by the code, but not yet tracked in the module.
+
+    go mod tidy
+
+#### Edit the example.com/<file_name> module to redirect Go tools from its module path
+
+    go mod edit -replace example.com/greetings=../greetings
