@@ -40,9 +40,11 @@ and CTRL + X, phir Y, aur Enter.
 
     source ~/.bashrc
 
-#### Check Go Version
+#### Check Go Version and Path
 
     go version
+
+    go env GOPATH
 
 ##### Also Checkout or Follow Go Documentaion
 
