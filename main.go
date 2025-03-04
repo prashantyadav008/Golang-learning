@@ -5,6 +5,13 @@ import (
 	switchCase "basic-topics/10.switchCase"
 	forloop "basic-topics/11.forloop"
 	mapping "basic-topics/12.mapping"
+	structure "basic-topics/13.structure"
+	pointers "basic-topics/14.pointers"
+	dataConversion "basic-topics/15.dataConversion"
+	stringPackage "basic-topics/16.stringPackage"
+	dateTime "basic-topics/17.dateTime"
+	deferKeyword "basic-topics/18.deferKeyword"
+	fileHandling "basic-topics/19.fileHandling"
 	variables "basic-topics/2.variables"
 	print "basic-topics/3.print"
 	function "basic-topics/5.function"
@@ -55,4 +62,25 @@ func main() {
 	fmt.Println("\n\n---------------------------------------------- 12. Mapping ----------------------------------------------")
 	// for loop
 	mapping.Mapping()
+
+	fmt.Println("\n\n---------------------------------------------- 13. Structure ----------------------------------------------")
+	structure.Structure()
+
+	fmt.Println("\n\n---------------------------------------------- 14. Pointers ----------------------------------------------")
+	pointers.Pointers()
+
+	fmt.Println("\n\n---------------------------------------------- 15. Data Conversion ----------------------------------------------")
+	dataConversion.DataConversion()
+
+	fmt.Println("\n\n---------------------------------------------- 16. String Package ----------------------------------------------")
+	stringPackage.StringPackage()
+
+	fmt.Println("\n\n---------------------------------------------- 17. Date & Time Package ----------------------------------------------")
+	dateTime.DateTime()
+
+	fmt.Println("\n\n---------------------------------------------- 18. Defer Keyword ----------------------------------------------")
+	deferKeyword.DeferKeyword()
+
+	fmt.Println("\n\n---------------------------------------------- 19. File Handling ----------------------------------------------")
+	fileHandling.FileHandling()
 }
