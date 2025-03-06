@@ -13,6 +13,10 @@ import (
 	deferKeyword "basic-topics/18.deferKeyword"
 	fileHandling "basic-topics/19.fileHandling"
 	variables "basic-topics/2.variables"
+	webrequest "basic-topics/20.webRequest"
+	urlHandling "basic-topics/21.urlHandling"
+	jsonHandling "basic-topics/22.jsonHandling"
+	crudOperation "basic-topics/23.crudOperation"
 	print "basic-topics/3.print"
 	function "basic-topics/5.function"
 	errorHandling "basic-topics/6.errorHandling"
@@ -83,4 +87,17 @@ func main() {
 
 	fmt.Println("\n\n---------------------------------------------- 19. File Handling ----------------------------------------------")
 	fileHandling.FileHandling()
+
+	fmt.Println("\n\n---------------------------------------------- 20. Web Request ----------------------------------------------")
+	webrequest.WebRequest()
+
+	fmt.Println("\n\n---------------------------------------------- 21. URL Handling ----------------------------------------------")
+	urlHandling.UrlHandling()
+
+	fmt.Println("\n\n---------------------------------------------- 22. JSON Handling ----------------------------------------------")
+	jsonHandling.JsonHandling()
+
+	fmt.Println("\n\n---------------------------------------------- 23. Crud Operation ----------------------------------------------")
+	crudOperation.CrudOperation()
+
 }
