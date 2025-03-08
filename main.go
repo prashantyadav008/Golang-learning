@@ -17,6 +17,8 @@ import (
 	urlHandling "basic-topics/21.urlHandling"
 	jsonHandling "basic-topics/22.jsonHandling"
 	crudOperation "basic-topics/23.crudOperation"
+	goRoutine "basic-topics/24.goRoutine"
+	syncWaitGroup "basic-topics/25.syncWaitGroup"
 	print "basic-topics/3.print"
 	function "basic-topics/5.function"
 	errorHandling "basic-topics/6.errorHandling"
@@ -99,5 +101,11 @@ func main() {
 
 	fmt.Println("\n\n---------------------------------------------- 23. Crud Operation ----------------------------------------------")
 	crudOperation.CrudOperation()
+
+	fmt.Println("\n\n---------------------------------------------- 24. Go Routines ----------------------------------------------")
+	goRoutine.GoRoutine()
+
+	fmt.Println("\n\n---------------------------------------------- 25. Sync Wait Group ----------------------------------------------")
+	syncWaitGroup.SyncWaitGroup()
 
 }
